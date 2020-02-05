@@ -1,0 +1,118 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    background: #f7f5f1;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #4a4843;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 0;
+    color: #ff6f61;
+}
+
+#profil_picture{
+    width: 9em;
+    height: 9em;
+    margin: 2% 5% 2% 2%;
+    border-radius: 50%;
+    background-image: url("images/DSC_5934_small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin: 0 20%;
+}
+
+i{
+    
+    color: #FFF
+}
+
+#quotes{
+    position: absolute;
+    margin: 0.5%;
+    width: 5%;
+}
+
+#quotes i{
+    color: #a75d67;
+}
+.header{
+    width: 60vw;
+    display: flex;
+    margin: 10vh auto 2vh auto;
+    background: #fff;
+    padding: 2%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .1);
+}
+.container{
+    width: 60vw;
+    height: 15vh;
+    padding: 2%;
+    background: #ff6f61;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .1);
+}
+
+.container-text{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container-social{
+    margin: 0 auto;
+}
+
+
+@media (max-width: 720px) {
+  #profil_picture{
+        width: 5em;
+        height: 5em;
+    }
+    .container{
+        height: 30vh;
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 540px) {
+    h1{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    #profil_picture{
+        width: 5em;
+        height: 5m;
+    }
+    .container{
+        height: 25vh;
+        padding-top: 5%;
+    }
+    .container-text{
+        font-size: 0.8em;
+}
+}
